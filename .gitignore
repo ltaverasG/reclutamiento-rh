@@ -1,0 +1,11 @@
+node_modules
+dist
+.env
+.env.local
+*.local
+.vite
+# Visual Studio
+.vs
+bin
+obj
+*.user

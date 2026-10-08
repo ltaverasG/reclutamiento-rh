@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/1.0.1184077">
+  <PropertyGroup>
+    <!-- Comando que ejecuta Visual Studio al presionar F5 / Iniciar -->
+    <StartupCommand>npm run dev</StartupCommand>
+    <!-- La compilación de producción se hace con "npm run build" -->
+    <ShouldRunBuildScript>false</ShouldRunBuildScript>
+    <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
+  </PropertyGroup>
+</Project>
